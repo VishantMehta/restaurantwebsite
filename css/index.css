@@ -143,4 +143,45 @@ nav .menu{
     }
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 10px 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu .logo a {
+        font-size: 30px;
+    }
+
+    .menu ul {
+        width: 100%;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    .center {
+        top: 40%;
+    }
+
+    .center .title {
+        font-size: 40px;
+    }
+
+    .center .sub_title {
+        font-size: 35px;
+    }
+
+    .center .btns button {
+        width: 100%;
+    }
+}
