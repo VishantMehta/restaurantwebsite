@@ -123,3 +123,24 @@ nav .menu{
     background: #fff;
     color: #000;
 }
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1250px) {
+    nav .menu{
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav .menu{
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav .menu{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {}
